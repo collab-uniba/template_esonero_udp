@@ -28,7 +28,7 @@ Il repository è organizzato in due progetti Eclipse CDT separati:
         └── protocol.h      # Header con definizioni e prototipi
 ```
 
-## Come Utilizzare il Template
+## Come Utilizzare il Repository
 
 ### 1. Creare la propria copia del repository
 
