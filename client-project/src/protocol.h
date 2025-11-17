@@ -19,7 +19,7 @@
 
 /*
  * Example function to implement:
- * int connect_to_server(const char* server_address);
+ * int send_udp_message(int socket, const char* message, struct sockaddr_in* server_addr);
  */
 
 #endif /* PROTOCOL_H_ */

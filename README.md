@@ -1,11 +1,11 @@
-# Template Esonero TCP - Corso di Reti di Calcolatori - ITPS A-L
+# Template Esonero UDP - Corso di Reti di Calcolatori - ITPS A-L
 
-Template repository per l'assegnazione della prima prova di esonero: client-server TCP.
+Template repository per l'assegnazione della prova di esonero: client-server UDP.
 
 
 ## Descrizione
 
-Questo repository contiene la struttura base per lo sviluppo di un'applicazione client-server TCP in linguaggio C, utilizzando la libreria standard delle socket. Il codice è progettato per essere portabile su sistemi operativi **Windows**, **Linux** e **macOS**.
+Questo repository contiene la struttura base per lo sviluppo di un'applicazione client-server UDP in linguaggio C, utilizzando la libreria standard delle socket. Il codice è progettato per essere portabile su sistemi operativi **Windows**, **Linux** e **macOS**.
 
 ## Struttura del Repository
 
@@ -34,8 +34,8 @@ Il repository è organizzato in due progetti Eclipse CDT separati:
 
 1. Cliccare su "Use this template" in alto a destra su GitHub
 2. Creare un nuovo repository personale
-   - Rinominate il repository sostituendo la parola _template_ con il vostro _cognome_ seguito dalla _matricola_ (`template_esonero_tcp` -> `cognome_12345_esonero_tcp`)
-   - Se l'esonero è svolto in coppia, il nome del repository sarà `cognome1_12345_cognome2_6789_esonero_tcp`
+   - Rinominate il repository sostituendo la parola _template_ con il vostro _cognome_ seguito dalla _matricola_ (`template_esonero_udp` -> `cognome_12345_esonero_udp`)
+   - Se l'esonero è svolto in coppia, il nome del repository sarà `cognome1_12345_cognome2_6789_esonero_udp`
 4. Clonare il repository sul proprio computer:
    ```bash
    git clone <url-del-tuo-repository>
@@ -106,8 +106,8 @@ Gli studenti devono:
    - Implementare le funzioni nel file `main.c`
 
 3. **Completare il codice** seguendo le sezioni TODO:
-   - **Client**: creazione socket, connessione al server, invio/ricezione dati
-   - **Server**: creazione socket, bind, listen, accept, gestione client
+   - **Client**: creazione socket UDP, invio/ricezione dati con sendto/recvfrom
+   - **Server**: creazione socket UDP, bind, ricezione/invio dati con recvfrom/sendto
 
 ## Note Importanti
 
