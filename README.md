@@ -160,12 +160,12 @@ Dopo aver completato lo sviluppo in Eclipse, è necessario salvare le modifiche 
 
    Dopo aver aggiunto i file allo staging area, creare un commit con un messaggio descrittivo:
    ```bash
-   git commit -m "Implementazione logica client-server TCP"
+   git commit -m "Implementazione logica client-server UDP"
    ```
 
    Il messaggio del commit dovrebbe descrivere brevemente le modifiche apportate. Altri esempi:
    ```bash
-   git commit -m "Aggiunta funzione di gestione connessioni"
+   git commit -m "Aggiunta funzione di gestione datagrammi"
    git commit -m "Implementazione protocollo comunicazione"
    git commit -m "Fix gestione errori socket"
    ```
